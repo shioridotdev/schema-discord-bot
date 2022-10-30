@@ -1,0 +1,26 @@
+{
+  "name": "schema-discord-bot",
+  "version": "0.0.1",
+  "description": "schema for discord",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shioridotdev/schema-discord-bot.git"
+  },
+  "author": "shioridotdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shioridotdev/schema-discord-bot/issues"
+  },
+  "homepage": "https://github.com/shioridotdev/schema-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.3.0",
+    "discord-api-types": "^0.37.15",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.0"
+  }
+}
